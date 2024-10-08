@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INFO2180 Lab 2</title>
+
+        <!-- INCLUDE STYLESHEET -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <!-- box 1 -->
+            <div id="header" class="grid-item">
+                <header>
+                    <img class="headshot" src="IMG_8911_crop.jpg" alt="Image of Nathan Gordon">
+                    <div class="textcontainer">
+                        <h1 class="title">Nathan Gordon's Blog</h1>
+                        <p class="subtitle">"Dare to dream, and watch the impossible become reality"</p>
+                    </div>
+                </header>
+            </div>
+            
+            <main>
+            <!-- box 2 -->
+                <!-- This will contain your blog posts -->
+                <div id="blogs" class="grid-item">
+                    <div id="blog1" class="blog">
+                        <article>
+                            <div>
+                                <h2 class="blog-title">General Relativity: A Summary</h2>
+                                <p class="date-author">Author: Nathan Gordon | Date: September 30, 2024</p>
+                            </div>
+                            
+                            <section>
+                                <p>Einstein's theory of general relativity, published in 1915, revolutionized our understanding of gravity. Instead of viewing gravity as a force between masses, general relativity describes it as the curvature of spacetime caused by the presence of mass and energy. Imagine spacetime as a flexible fabric; massive objects like stars and planets cause this fabric to warp, and the bending of spacetime affects the motion of other objects, which follow curved paths. This explains why planets orbit the sun—rather than being "pulled" by an invisible force, they are moving along the curved spacetime created by the sun's mass.</p>
+                            </section>
+                            <img src="relativity.jpg" alt="image describing general relativity" width="300" height="200">
+                            <section>
+                                <p>One of the most famous predictions of general relativity is that light also follows curved paths near massive objects, a phenomenon called gravitational lensing. The theory also predicts the existence of black holes—regions of spacetime where the curvature becomes so extreme that not even light can escape. General relativity has been confirmed by numerous experiments, including the bending of starlight during a solar eclipse and the detection of gravitational waves, ripples in spacetime caused by accelerating masses like merging black holes. This theory remains one of the pillars of modern physics, explaining large-scale structures and phenomena in the universe.</p>
+                            </section>
+                            
+                            <footer>
+                                <p>Posted in <a href="#">Theory of Relativity</a> | <a href="#">Leave a Comment</a></p>
+                            </footer>
+                        </article>
+                    </div>
+
+                    <hr style="border: 1px solid black; width: 100%; margin: 20px auto;">
+
+
+                    <div id="blog2" class="bog">
+                        <article>
+                            <div>
+                                <h2 class="blog-title">Supercomputers vs Quantum Computers</h2>
+                                <p class="date-author">Author: Nathan Gordon | Date: September 30, 2024</p>
+                            </div>
+                            
+                            <section>
+                                <p>Supercomputers and quantum computers are both designed for high-performance computation, but they operate on fundamentally different principles. Supercomputers are based on classical computing principles and use traditional bits (0s and 1s) to process information. They excel at solving complex problems by performing vast numbers of calculations simultaneously, using parallel processing and powerful hardware. These machines are ideal for tasks like weather modeling, protein folding, and large-scale simulations, where immense computational power is required to process large datasets quickly.</p>
+                            </section>
+                            <img src="computers.jpg" alt="image of supercomputer vs quantum computer" width="300" height="200">
+                            <section>
+                                <p>Quantum computers, on the other hand, use quantum bits or qubits, which can exist in a superposition of states—both 0 and 1 at the same time, thanks to the principles of quantum mechanics. This allows quantum computers to process many possibilities simultaneously, potentially solving certain problems exponentially faster than classical supercomputers. Quantum computers are particularly suited for tasks like factoring large numbers, simulating quantum systems, and optimizing complex problems. However, they are still in early development, and current quantum computers are not yet capable of outperforming the best supercomputers for most tasks. Their true potential lies in specialized areas where quantum effects can be harnessed to solve problems that are intractable for classical machines.</p>
+                            </section>
+                        
+                            <footer>
+                                <p>Posted in <a href="#">High Performance Computing</a> | <a href="#">Leave a Comment</a></p>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </main>
+
+            <aside>
+            <!-- box 3 -->
+                <!-- This will be your sidebar -->
+                <div id="sidebar" class="grid-item">
+                    <div id="about-sidebar" class="about">
+                        <section>
+                            <h3>About</h3>
+                            <p>Aspiring hardware design engineer with a curious mind, a passion for emerging new technologies, space and science (certified nerd).</p>
+                        </section>
+                    </div>
+
+                    <div>
+                        <section>
+                            <h3 class="sidebar-heading">Social Media</h3>
+                            <ul>
+                                <li><a href="https://www.linkedin.com/in/nathan-gordon-57886b217/">LinkedIn</a></li>
+                                <li><a href="https://www.instagram.com/n.j.g._/">Instagram</a></li>
+                                <li><a href="https://x.com/njg_nate">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                    
+                    <div>
+                        <section>
+                            <h3 class="sidebar-heading">Archives</h3>
+                            <ul>
+                                <li>May 2024</li>
+                                <li>June 2024</li>
+                                <li>August 2024</li>
+                                <li>September 2024</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </aside>
+
+            <div id="footer" class="grid-item">
+                <footer>
+                    <!-- box 4 -->
+                        <p>Copyright &copy; 2024, Nathan J. Gordon</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
